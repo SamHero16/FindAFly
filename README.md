@@ -1,6 +1,6 @@
 # Fly-Fishing Fly Classifier
 #### Goal: Take a photo of a fly and have a neural network tell you what type it is.
-###### *view the Jupyter Notebook for additional details*
+###### *click [here](ModelingNotebook13Classes.ipynb) for the actual code*
 ###### *app currently not available due to time and resource limitations*
 
 
