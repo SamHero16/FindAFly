@@ -1,4 +1,9 @@
-# Fly Classifier
+# Fly-Fishing Fly Classifier
+#### Goal: Take a photo of a fly and have a neural network tell you what type it is.
+###### *view the Jupyter Notebook for additional details*
+###### *app currently not available due to time and resource limitations*
+
+https://github.com/SamHero16/FindAFly/assets/132628480/15ef36f6-6481-4823-b761-d0a52c50899b
 
 This project arose from a real problem. Me and my friends were going to go fly fishing, and I had a box of flies my dad had given me years ago. I looked down and didn’t recognize a single fly. I decided to make a Convolutional Neural Net that could classify the flies in my box. I could not find a fly classifier on the internet, so I was pleased that the idea was some novel. 
 
@@ -22,14 +27,14 @@ Train, validation, and test sets contain images from google as well as phone ima
 - Test Loss: 0.0612
 - Test Accuracy: 0.992
 
-I created a small app to show this in action. The available pictures were set aside from the notebook entirely. 
-
-https://github.com/SamHero16/FindAFly/assets/132628480/15ef36f6-6481-4823-b761-d0a52c50899b
+I created a small app to show this in action (above). The pictures to pick from were set aside from the notebook entirely. Uploading your own photo for classification will come soon. 
 
 Future work to be done:
 - Run and document the 22-class model for comparison.
 - Get more/better data.
 - Make the app available on github (issues with uploading my huge Keras model.
+
+I hope to have the time to expand on this one day!
 
 
 
