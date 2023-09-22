@@ -1,3 +1,5 @@
+# Fly Classifier
+
 This project arose from a real problem. Me and my friends were going to go fly fishing, and I had a box of flies my dad had given me years ago. I looked down and didn’t recognize a single fly. I decided to make a Convolutional Neural Net that could classify the flies in my box. I could not find a fly classifier on the internet, so I was pleased that the idea was some novel. 
 
 My first question was what flies I should include in my model. I can’t include every fly every created, but I wanted the user to be able to classify any fly in his box. So I went to the fly shop and asked around, and settled on 22 of the most popular flies I could find. 
@@ -14,11 +16,11 @@ This worked decently and had a respectable accuracy, but for this to have any st
 
 Train, validation, and test sets contain images from google as well as phone images captured by me. After a lot of fiddling, I reached these metrics: 
 
-Validation Loss: 0.188
-Validation Accuracy: 0.969
+- Validation Loss: 0.188
+- Validation Accuracy: 0.969
 
-Test Loss: 0.0612
-Test Accuracy: 0.992
+- Test Loss: 0.0612
+- Test Accuracy: 0.992
 
 I created a small app to show this in action. The available pictures were set aside from the notebook entirely. 
 
